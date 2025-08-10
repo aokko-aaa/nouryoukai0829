@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>調子モータース 大人の納涼会</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <img src="ひと.png" alt="" class="running-man">
+
+    <div class="container">
+        <header>
+            <img src="タイトル.png" alt="調子モータース ロゴ">
+            <h1>大人の納涼会</h1>
+        </header>
+
+        <main>
+            <section class="event-overview">
+                <p><strong>2025.08.29 (金) - 30 (土)</strong></p>
+                <p><strong>17:00 - 20:30</strong></p>
+                <p>夏の終わりに、美味しいグルメと楽しい時間をご一緒に。</p>
+            </section>
+
+            <section class="event-details">
+                <h2>EVENT DETAILS</h2>
+                <img src="チラシ.png" alt="大人の納涼会 イベントチラシ">
+            </section>
+
+            <section class="gourmet-section">
+                <h2>日替わり絶品グルメ</h2>
+                <div class="vendor">
+                    <span class="date">29日(金)</span>
+                    <span class="name">AMERICAN DINER SUNDY'S</span>
+                    <a href="https://www.instagram.com/sundys.nishio/?hl=ja" class="btn instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="vendor">
+                    <span class="date">30日(土)</span>
+                    <span class="name">ニシオシティダイナー</span>
+                    <a href="https://www.instagram.com/nishiocitydiner/?hl=ja" class="btn instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="vendor">
+                    <span class="date">29・30日（金/土）</span>
+                    <span class="name">5sense</span>
+                    <a href="https://www.instagram.com/5sense_bbq_burger/?hl=ja" class="btn instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </section>
+
+            <section class="info-section">
+                <h2>店舗情報</h2>
+                <ul>
+                    <li><strong>店舗名</strong> 調子モータース</li>
+                    <li><strong>住所</strong> 愛知県西尾市下町大道48-6</li>
+                    <li>
+                        <strong>SNS</strong>
+                        <a href="https://www.instagram.com/chosimotas/?hl=ja" class="btn instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <strong>在庫</strong>
+                        <a href="https://www.carsensor.net/shop/aichi/319288001/" class="btn carsensor" target="_blank">カーセンサー</a>
+                    </li>
+                     <li>
+                        <strong>MAP</strong>
+                        <a href="https://www.google.com/maps/search/?api=1&query=愛知県西尾市下町大道48-6" class="btn" target="_blank">Google Maps</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="notes-section">
+                <h2>ご来場の皆様へ</h2>
+                <p>車屋ですので、飲酒運転はご遠慮ください。<br>代行運転をご紹介しますので、お気軽にお声がけください。</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 CHOSHI motors. All Rights Reserved.</p>
+        </footer>
+
+    </div>
+
+    <script>
+        const runningMan = document.querySelector('.running-man');
+        document.addEventListener('mousemove', (e) => {
+            runningMan.style.left = e.clientX + 'px';
+            runningMan.style.top = e.clientY + 'px';
+        });
+    </script>
+
+</body>
+</html>
