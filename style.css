@@ -173,3 +173,53 @@ footer {
     pointer-events: none; /* 画像がクリックイベントを妨げないように */
     transform: translate(-50%, -50%); /* 画像の中心をカーソルに合わせる */
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .gourmet-section .vendor {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .gourmet-section .vendor .date {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .running-man {
+        width: 50px;
+    }
+
+    .info-section li strong {
+        display: block;
+        width: auto; /* width: 80px; を上書き */
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8em; /* さらに小さい画面での調整 */
+    }
+}
+
+/* Responsive Design for very small screens */
+@media (max-width: 375px) {
+    .event-overview p,
+    .gourmet-section .vendor .date {
+        font-size: 0.9em;
+    }
+}
